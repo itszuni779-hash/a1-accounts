@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZG Digital Store</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0f0f0f;
+      color:white;
+    }
+
+    header{
+      background:#111827;
+      padding:20px;
+      text-align:center;
+      border-bottom:2px solid #2563eb;
+    }
+
+    header h1{
+      font-size:40px;
+      color:#3b82f6;
+    }
+
+    header p{
+      margin-top:10px;
+      color:#cbd5e1;
+    }
+
+    .hero{
+      text-align:center;
+      padding:80px 20px;
+      background:linear-gradient(to right,#111827,#1e3a8a);
+    }
+
+    .hero h2{
+      font-size:48px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:18px;
+      color:#d1d5db;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 28px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      transition:0.3s;
+      font-weight:bold;
+    }
+
+    .btn:hover{
+      background:#1d4ed8;
+    }
+
+    .products{
+      padding:60px 20px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .products h2{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:36px;
+      color:#3b82f6;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1f2937;
+      padding:25px;
+      border-radius:15px;
+      transition:0.3s;
+      border:1px solid #374151;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      border-color:#2563eb;
+    }
+
+    .card h3{
+      color:#60a5fa;
+      margin-bottom:15px;
+    }
+
+    .card p{
+      color:#d1d5db;
+      line-height:1.6;
+    }
+
+    .telegram{
+      text-align:center;
+      padding:60px 20px;
+      background:#111827;
+      margin-top:50px;
+    }
+
+    .telegram h2{
+      margin-bottom:20px;
+      color:#3b82f6;
+    }
+
+    .telegram a{
+      color:white;
+      background:#2563eb;
+      padding:14px 25px;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+      display:inline-block;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#0b1120;
+      color:#9ca3af;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>ZG Digital Store</h1>
+    <p>Premium Social Media Accounts Marketplace</p>
+  </header>
+
+  <section class="hero">
+    <h2>High Quality Digital Accounts</h2>
+    <p>
+      Buy Premium Reddit & TikTok Accounts with High Quality and Fast Delivery.
+    </p>
+
+    <a href="https://t.me/Saqisaqi09" class="btn" target="_blank">
+      Contact on Telegram
+    </a>
+  </section>
+
+  <section class="products">
+    <h2>Our Products</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Reddit 1K Karma Accounts</h3>
+        <p>
+          High quality Reddit accounts with 1K+ karma. Ready for posting and marketing use.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Reddit 2K Karma Accounts</h3>
+        <p>
+          Premium aged Reddit accounts with 2K+ karma and active history.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Reddit 100-200 Karma Accounts</h3>
+        <p>
+          Budget friendly Reddit accounts with good reputation and verified quality.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Reddit Blank Aged Accounts</h3>
+        <p>
+          Aged Reddit accounts without activity. Perfect for long-term safe usage.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>TikTok USA/UK Accounts</h3>
+        <p>
+          TikTok accounts with monetization enabled and all important options activated.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>TikTok Business Accounts</h3>
+        <p>
+          Professional TikTok business accounts for ads, marketing and brand growth.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="telegram">
+    <h2>Order Now</h2>
+
+    <a href="https://t.me/Saqisaqi09" target="_blank">
+      @Saqisaqi09
+    </a>
+  </section>
+
+  <footer>
+    © 2026 ZG Digital Store - All Rights Reserved
+  </footer>
+
+</body>
+</html>
